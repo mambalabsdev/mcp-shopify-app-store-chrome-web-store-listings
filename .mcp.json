@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-shopify-app-store-chrome-web-store-listings": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-shopify-app-store-chrome-web-store-listings"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

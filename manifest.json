@@ -1,0 +1,37 @@
+{
+  "manifest_version": "0.3",
+  "name": "mcp-shopify-app-store-chrome-web-store-listings",
+  "version": "1.0.0",
+  "description": "MCP server for Shopify App Store and Chrome Web Store Listings. Shopify apps and Chrome extensions by category, keyword, or URL, with rating, reviews, pricing or users, and the developer's website, domain, address, and email. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mambalabsdev/mcp-shopify-app-store-chrome-web-store-listings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-shopify-app-store-chrome-web-store-listings"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "build/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/build/index.js"
+      ],
+      "env": {
+        "APIFY_TOKEN": "${user_config.apify_token}"
+      }
+    }
+  },
+  "user_config": {
+    "apify_token": {
+      "type": "string",
+      "title": "Apify API Token",
+      "description": "Apify API token for running the actor",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}

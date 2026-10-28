@@ -1,0 +1,31 @@
+{
+  "name": "mcp-shopify-app-store-chrome-web-store-listings",
+  "displayName": "Shopify App Store and Chrome Web Store Listings",
+  "version": "1.0.0",
+  "description": "MCP server for Shopify App Store and Chrome Web Store Listings. Shopify apps and Chrome extensions by category, keyword, or URL, with rating, reviews, pricing or users, and the developer's website, domain, address, and email. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-shopify-app-store-chrome-web-store-listings",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "shopify-apps",
+    "chrome-extensions",
+    "app-store",
+    "lead-generation",
+    "partner-ecosystem"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "shopify-apps",
+    "chrome-extensions",
+    "app-store",
+    "lead-generation",
+    "partner-ecosystem"
+  ],
+  "mcpServers": ".mcp.json"
+}
