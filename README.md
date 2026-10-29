@@ -101,7 +101,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
 | `app-listing`, one Shopify app or Chrome extension returned, with its listing page read unless include_details is false | $0.005 | $0.00475 | $0.0045 | $0.00425 |
-| `apify-actor-start`, per run start | $0.0005 | $0.0005 | $0.0005 | $0.0005 |
+| `apify-actor-start`, per run start | $0.0006313 | $0.0006313 | $0.0006313 | $0.0006313 |
 
 Rows for a category, sitemap, or listing that could not be read are free, and so is the no_results row.
 
